@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for alcohol calculator
+				purple: {
+					50: "#F6F5FB",
+					100: "#EEEAF7",
+					200: "#D6BCFA",
+					300: "#B794F4",
+					400: "#9B87F5",
+					500: "#7E69AB",
+					600: "#6E59A5",
+					700: "#553C9A",
+					800: "#44337A",
+					900: "#322659"
+				},
+				danger: "#ea384c",
+				warning: "#f59e0b",
+				success: "#10b981"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +101,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0'
+					},
+					'100%': {
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out'
 			}
 		}
 	},
