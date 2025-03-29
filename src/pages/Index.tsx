@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import AlcoholCalculatorForm from '@/components/AlcoholCalculatorForm';
 import AlcoholResults from '@/components/AlcoholResults';
+import Navigation from '@/components/Navigation';
 import { AlcoholFormData, calculateAlcoholResults, CalculationResult } from '@/utils/alcoholCalculations';
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-purple-50">
+      <Navigation />
       <div className="container mx-auto px-4 py-8">
         <header className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-purple-800 mb-2">
