@@ -14,11 +14,11 @@ const Layout = ({ children, title, description }: LayoutProps) => {
       <Navigation />
       <div className="container mx-auto px-4 py-8">
         <header className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-purple-800 mb-2">{title}</h1>
-          <p className="text-gray-600 max-w-3xl">{description}</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-purple-800 mb-3">{title}</h1>
+          <p className="text-gray-600 max-w-3xl text-lg">{description}</p>
         </header>
         
-        <main className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-6">
+        <main className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-6 md:p-8">
           {children}
         </main>
         
