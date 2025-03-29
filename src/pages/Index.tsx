@@ -23,7 +23,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <header className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-purple-800 mb-2">
-            Kalkulator Alkoholowy Online
+            Wirtualny Alkomat ONLINE
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Sprawdź, kiedy będziesz mógł bezpiecznie prowadzić pojazd po spożyciu alkoholu. 
@@ -40,7 +40,7 @@ const Index = () => {
         </div>
         
         <footer className="mt-16 text-center text-gray-500 text-sm">
-          <p>© 2023 Kalkulator Alkoholowy Online. To narzędzie ma charakter orientacyjny.</p>
+          <p>© 2023 Wirtualny Alkomat ONLINE. To narzędzie ma charakter orientacyjny.</p>
           <p className="mt-2">
             Nie należy traktować wyliczeń jako dokładnych. 
             Nigdy nie prowadź pojazdu po spożyciu alkoholu.
