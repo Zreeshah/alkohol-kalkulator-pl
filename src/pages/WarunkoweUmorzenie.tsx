@@ -25,6 +25,8 @@ const WarunkoweUmorzenie = () => {
           <li>Istnieje pozytywna prognoza kryminologiczna (uzasadnione przypuszczenie, że sprawca będzie przestrzegał porządku prawnego)</li>
           <li>Przestępstwo jest zagrożone karą nieprzekraczającą 5 lat pozbawienia wolności</li>
         </ul>
+
+        <h2>Praktyczne przypadki warunkowego umorzenia</h2>
         <p>
           W praktyce warunkowe umorzenie postępowania za jazdę po alkoholu jest stosunkowo rzadkie i dotyczy głównie przypadków, gdy:
         </p>

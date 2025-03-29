@@ -14,7 +14,7 @@ const Artykul178a = () => {
           Artykuł 178a Kodeksu Karnego to jeden z najczęściej stosowanych przepisów dotyczących przestępstw drogowych w Polsce. Reguluje on odpowiedzialność karną za prowadzenie pojazdu w stanie nietrzeźwości lub pod wpływem środka odurzającego.
         </p>
 
-        <h3>Treść przepisu</h3>
+        <h2>Treść przepisu</h2>
         <div className="bg-gray-100 p-4 rounded-md my-4">
           <p className="font-semibold">Art. 178a § 1 KK:</p>
           <p>
@@ -80,7 +80,7 @@ const Artykul178a = () => {
           <li>Świadczenie pieniężne na rzecz Funduszu Pomocy Pokrzywdzonym oraz Pomocy Postpenitencjarnej (minimum 5000 zł)</li>
         </ul>
         
-        <h3>Zaostrzony wymiar kary w przypadku recydywy</h3>
+        <h2>Zaostrzony wymiar kary w przypadku recydywy</h2>
         <p>
           W przypadku recydywy (§ 4), czyli gdy sprawca był wcześniej prawomocnie skazany za podobne przestępstwo lub popełnił czyn w okresie obowiązywania zakazu prowadzenia pojazdów, kara jest surowsza:
         </p>
@@ -106,7 +106,7 @@ const Artykul178a = () => {
           Odmowa poddania się badaniu trzeźwości skutkuje tymi samymi konsekwencjami, co prowadzenie pojazdu w stanie nietrzeźwości.
         </p>
         
-        <h3>Procedura po zatrzymaniu</h3>
+        <h2>Procedura po zatrzymaniu</h2>
         <p>
           Jeśli kierowca zostanie zatrzymany za jazdę pod wpływem alkoholu:
         </p>
@@ -119,7 +119,7 @@ const Artykul178a = () => {
           <li>Sprawa trafia do prokuratury, która kieruje akt oskarżenia do sądu</li>
         </ol>
 
-        <h3>Mediacje i dobrowolne poddanie się karze</h3>
+        <h2>Mediacje i dobrowolne poddanie się karze</h2>
         <p>
           W sprawach o przestępstwo z art. 178a KK możliwe jest:
         </p>

@@ -18,7 +18,7 @@ const Layout = ({ children, title, description }: LayoutProps) => {
           <p className="text-gray-600 max-w-3xl">{description}</p>
         </header>
         
-        <main className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6">
+        <main className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-6">
           {children}
         </main>
         

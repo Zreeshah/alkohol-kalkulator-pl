@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { Button } from './ui/button';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,19 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-3">
           <Link to="/" className="text-xl font-bold">Wirtualny Alkomat ONLINE</Link>
           
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-2">
+            <Button
+              variant="ghost"
+              className="text-white hover:bg-purple-700 hover:text-white"
+              onClick={toggleMenu}
+            >
+              Menu
+              {isOpen ? <X size={16} className="ml-1" /> : <Menu size={16} className="ml-1" />}
+            </Button>
+          </div>
+          
+          {/* Mobile Menu Button */}
           <button 
             onClick={toggleMenu} 
             className="md:hidden p-2 rounded hover:bg-purple-700 transition-colors"
@@ -23,20 +37,12 @@ const Navigation = () => {
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-          
-          <ul className="hidden md:flex space-x-6">
-            <li><Link to="/" className="hover:text-purple-200 transition-colors">Strona główna</Link></li>
-            <li><Link to="/blokada-alkoholowa" className="hover:text-purple-200 transition-colors">Blokada alkoholowa</Link></li>
-            <li><Link to="/jazda-po-alkoholu" className="hover:text-purple-200 transition-colors">Jazda po alkoholu</Link></li>
-            <li><Link to="/kontakt" className="hover:text-purple-200 transition-colors">Kontakt</Link></li>
-            <li><Link to="/polityka-prywatnosci" className="hover:text-purple-200 transition-colors">Polityka prywatności</Link></li>
-          </ul>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile & Desktop Menu Content */}
         {isOpen && (
-          <div className="md:hidden py-3 pb-5 border-t border-purple-700">
-            <ul className="space-y-2">
+          <div className="py-3 pb-5 border-t border-purple-700">
+            <ul className="space-y-2 md:space-y-0 md:grid md:grid-cols-3 md:gap-4">
               <li><Link to="/" className="block py-2" onClick={toggleMenu}>Strona główna</Link></li>
               <li><Link to="/blokada-alkoholowa" className="block py-2" onClick={toggleMenu}>Blokada alkoholowa</Link></li>
               <li><Link to="/dobrowolne-poddanie-karze" className="block py-2" onClick={toggleMenu}>Dobrowolne poddanie się karze</Link></li>
