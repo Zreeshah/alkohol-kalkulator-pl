@@ -77,7 +77,7 @@ export default function AlcoholCalculatorForm({ onCalculate }: AlcoholCalculator
       <CardContent className="p-6">
         <form onSubmit={handleSubmit} className="space-y-6">
           <h2 className="text-2xl font-bold text-center text-purple-700 mb-6">
-            Kalkulator Alkoholowy
+            Uzupełnij dane, aby obliczyć, czy możesz prowadzić samochód.
           </h2>
           
           {/* Personal Data Section */}
