@@ -23,7 +23,7 @@ const Index = () => {
 
   return (
     <Layout 
-      title="Uzupełnij dane, aby obliczyć, czy możesz prowadzić samochód." 
+      title="Kalkulator Alkoholowy" 
       description="Sprawdź, kiedy będziesz mógł bezpiecznie prowadzić pojazd po spożyciu alkoholu. Pamiętaj, że to tylko kalkulacja orientacyjna."
     >
       <div className="mb-12">
