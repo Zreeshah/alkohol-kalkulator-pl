@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 const BadanieAlkomatem = () => {
   return (
     <Layout 
-      title="Jak powinno wyglądać badanie alkomatem?" 
-      description="Procedura badania alkomatem przez policję, prawa i obowiązki kierowcy, rodzaje alkomatów oraz możliwości kwestionowania wyników badania."
+      title="Prawidłowe Badanie Alkomatem - Procedura, Prawa i Obowiązki Kierowcy" 
+      description="Procedura badania alkomatem przez policję, prawa i obowiązki kierowcy, rodzaje alkomatów oraz możliwości kwestionowania wyników badania. Kompleksowy poradnik."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Badanie alkomatem - procedura i przepisy</h2>

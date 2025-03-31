@@ -6,7 +6,7 @@ import { Send } from 'lucide-react';
 const Kontakt = () => {
   return (
     <Layout 
-      title="Kontakt" 
+      title="Kontakt z Zespołem Wirtualnego Alkomatu Online" 
       description="Skontaktuj się z zespołem Wirtualnego Alkomatu ONLINE. Formularz kontaktowy, dane adresowe oraz możliwość zadania pytań dotyczących kalkulatora alkoholowego."
     >
       <div className="space-y-6 max-w-3xl mx-auto">

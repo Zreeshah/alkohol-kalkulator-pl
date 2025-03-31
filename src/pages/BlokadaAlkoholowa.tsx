@@ -8,7 +8,7 @@ import { ArrowDown } from 'lucide-react';
 const BlokadaAlkoholowa = () => {
   return (
     <Layout 
-      title="Blokada alkoholowa (alkoblokada)" 
+      title="Blokada Alkoholowa - Wszystko co Musisz Wiedzieć o Alkoblokadach w Polsce" 
       description="Kompleksowy przewodnik o blokadach alkoholowych w Polsce: jak działają, przepisy prawne, koszty instalacji i użytkowania. Poznaj alternatywę dla zakazu prowadzenia pojazdów."
     >
       <article className="prose prose-purple max-w-none">

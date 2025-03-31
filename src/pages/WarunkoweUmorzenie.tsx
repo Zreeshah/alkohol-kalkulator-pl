@@ -5,7 +5,7 @@ import Layout from '@/components/Layout';
 const WarunkoweUmorzenie = () => {
   return (
     <Layout 
-      title="Warunkowe umorzenie postępowania za jazdę po alkoholu" 
+      title="Warunkowe Umorzenie Postępowania za Jazdę po Alkoholu - Poradnik Prawny" 
       description="Warunkowe umorzenie postępowania za jazdę po alkoholu - poznaj warunki, procedury i konsekwencje prawne. Sprawdź, kiedy sąd może zastosować ten środek probacyjny."
     >
       <article className="prose prose-purple max-w-none">
