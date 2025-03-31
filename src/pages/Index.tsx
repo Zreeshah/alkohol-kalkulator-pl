@@ -23,8 +23,8 @@ const Index = () => {
 
   return (
     <Layout 
-      title="Kalkulator Promili - Sprawdź Czas Trzeźwienia" 
-      description="Precyzyjny kalkulator alkoholowy online. Oblicz poziom alkoholu we krwi i czas potrzebny do wytrzeźwienia po piwie, winie czy wódce."
+      title="Wirtualny Alkomat Online – Oblicz Promile w Kilka Chwil!" 
+      description="Czy możesz już prowadzić? Skorzystaj z naszego alkomatu online i sprawdź swoje promile we krwi. Szybkie i dokładne wyniki!"
     >
       <div className="mb-12">
         {showForm ? (
