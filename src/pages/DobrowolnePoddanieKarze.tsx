@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 const DobrowolnePoddanieKarze = () => {
   return (
     <Layout 
-      title="Dobrowolne Poddanie się Karze za Jazdę po Alkoholu - Procedura i Konsekwencje" 
-      description="Poznaj procedurę i konsekwencje dobrowolnego poddania się karze za prowadzenie pojazdu pod wpływem alkoholu w Polsce. Sprawdź, kiedy warto rozważyć tę opcję."
+      title="Dobrowolne Poddanie Karze - Procedura i Skutki" 
+      description="Procedura dobrowolnego poddania się karze za jazdę po alkoholu. Kiedy warto rozważyć tę opcję i jakie są jej konsekwencje."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Czym jest dobrowolne poddanie się karze?</h2>

@@ -5,8 +5,8 @@ import Layout from '@/components/Layout';
 const AlkoholNaSwiecie = () => {
   return (
     <Layout 
-      title="Dopuszczalna Zawartość Alkoholu na Świecie" 
-      description="Porównanie limitów zawartości alkoholu we krwi kierowców w różnych krajach. Sprawdź gdzie obowiązuje zakaz, a gdzie są wyższe limity."
+      title="Limity Alkoholu dla Kierowców na Świecie" 
+      description="Porównanie dopuszczalnych limitów alkoholu dla kierowców w różnych krajach. Sprawdź przepisy przed wyjazdem za granicę."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Limity zawartości alkoholu we krwi kierowców na świecie</h2>

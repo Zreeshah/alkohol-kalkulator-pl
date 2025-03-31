@@ -14,7 +14,7 @@ const Layout = ({ children, title, description }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-purple-50">
       <Helmet>
-        <title>{title} | Wirtualny Alkomat ONLINE</title>
+        <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
       <Navigation />

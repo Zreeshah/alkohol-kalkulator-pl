@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 const Artykul178a = () => {
   return (
     <Layout 
-      title="Artykuł 178a KK - Jazda po Alkoholu" 
-      description="Analiza artykułu 178a Kodeksu Karnego dotyczącego jazdy pod wpływem alkoholu. Poznaj konsekwencje prawne i kary za prowadzenie po pijanemu."
+      title="Artykuł 178a KK - Konsekwencje Jazdy po Alkoholu" 
+      description="Analiza art. 178a Kodeksu Karnego o jeździe pod wpływem alkoholu. Poznaj kary, zakazy i procedury w przypadku zatrzymania."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Artykuł 178a Kodeksu Karnego - przepisy i interpretacja</h2>

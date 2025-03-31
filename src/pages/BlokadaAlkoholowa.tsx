@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 const BlokadaAlkoholowa = () => {
   return (
     <Layout 
-      title="Blokada Alkoholowa - Przewodnik" 
-      description="Dowiedz się jak działają blokady alkoholowe w Polsce. Poznaj przepisy, koszty instalacji i alternatywę dla zakazu prowadzenia pojazdów."
+      title="Blokada Alkoholowa - Co Warto Wiedzieć" 
+      description="Jak działają blokady alkoholowe? Poznaj przepisy, koszty instalacji i alternatywę dla zakazu prowadzenia pojazdów w Polsce."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Czym jest blokada alkoholowa?</h2>

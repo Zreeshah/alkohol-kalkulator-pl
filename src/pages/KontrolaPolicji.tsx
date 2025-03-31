@@ -5,8 +5,8 @@ import Layout from '@/components/Layout';
 const KontrolaPolicji = () => {
   return (
     <Layout 
-      title="Kontrola Trzeźwości przez Policję - Prawa i Obowiązki Kierowcy" 
-      description="Poradnik jak zachować się podczas kontroli trzeźwości przez policję, jakie są twoje prawa i obowiązki oraz co robić w różnych sytuacjach. Praktyczne wskazówki."
+      title="Kontrola Trzeźwości - Prawa i Obowiązki" 
+      description="Jak zachować się podczas kontroli trzeźwości? Poznaj swoje prawa, obowiązki i procedury policyjne podczas badania alkomatem."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Podstawowe zasady podczas kontroli drogowej</h2>
