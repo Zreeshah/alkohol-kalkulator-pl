@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Navigation from './Navigation';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 interface LayoutProps {
@@ -11,11 +11,15 @@ interface LayoutProps {
 }
 
 const Layout = ({ children, title, description }: LayoutProps) => {
+  const location = useLocation();
+  const canonicalUrl = `https://wirtualny-alkomat-online.pl${location.pathname}`;
+
   return (
     <div className="min-h-screen bg-purple-50">
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
       </Helmet>
       <Navigation />
       <div className="container mx-auto px-4 py-8">
