@@ -9,7 +9,7 @@ const BadanieAlkomatem = () => {
   return (
     <Layout 
       title="Badanie Alkomatem - Procedura i Twoje Prawa" 
-      description="Jak przebiega badanie alkomatem? Poznaj procedurę, swoje prawa i kiedy można zakwestionować wynik badania trzeźwości."
+      description="Poznaj procedurę badania alkomatem i swoje prawa podczas kontroli. Dowiedz się kiedy można zakwestionować wynik badania trzeźwości."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Badanie alkomatem - procedura i przepisy</h2>

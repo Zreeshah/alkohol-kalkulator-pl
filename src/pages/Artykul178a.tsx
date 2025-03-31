@@ -9,7 +9,7 @@ const Artykul178a = () => {
   return (
     <Layout 
       title="Artykuł 178a KK - Konsekwencje Jazdy po Alkoholu" 
-      description="Analiza art. 178a Kodeksu Karnego o jeździe pod wpływem alkoholu. Poznaj kary, zakazy i procedury w przypadku zatrzymania."
+      description="Poznaj konsekwencje jazdy po alkoholu według art. 178a Kodeksu Karnego. Dowiedz się o karach, zakazach i procedurach po zatrzymaniu."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Artykuł 178a Kodeksu Karnego - przepisy i interpretacja</h2>

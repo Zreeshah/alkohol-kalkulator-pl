@@ -7,7 +7,7 @@ const Kontakt = () => {
   return (
     <Layout 
       title="Kontakt - Formularz Kontaktowy" 
-      description="Skontaktuj się z nami przez formularz lub email. Zadaj pytania dotyczące kalkulatora alkoholowego lub uzyskaj dodatkowe informacje."
+      description="Skontaktuj się z nami w sprawie kalkulatora alkoholowego. Zadaj pytania, zgłoś uwagi lub poproś o dodatkowe informacje."
     >
       <div className="space-y-6 max-w-3xl mx-auto">
         <div className="bg-purple-50 p-6 rounded-lg mb-6">

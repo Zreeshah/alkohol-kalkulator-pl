@@ -6,7 +6,7 @@ const KontrolaPolicji = () => {
   return (
     <Layout 
       title="Kontrola Trzeźwości - Prawa i Obowiązki" 
-      description="Jak zachować się podczas kontroli trzeźwości? Poznaj swoje prawa, obowiązki i procedury policyjne podczas badania alkomatem."
+      description="Dowiedz się jak zachować się podczas kontroli trzeźwości. Poznaj swoje prawa, obowiązki i procedury policyjne podczas badania alkomatem."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Podstawowe zasady podczas kontroli drogowej</h2>

@@ -9,7 +9,7 @@ const DobrowolnePoddanieKarze = () => {
   return (
     <Layout 
       title="Dobrowolne Poddanie Karze - Procedura i Skutki" 
-      description="Procedura dobrowolnego poddania się karze za jazdę po alkoholu. Kiedy warto rozważyć tę opcję i jakie są jej konsekwencje."
+      description="Poznaj procedurę dobrowolnego poddania się karze za jazdę po alkoholu. Sprawdź korzyści tej opcji i jej konsekwencje prawne."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Czym jest dobrowolne poddanie się karze?</h2>

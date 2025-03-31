@@ -9,7 +9,7 @@ const AdwokatJazdaPoAlkoholu = () => {
   return (
     <Layout 
       title="Adwokat przy Jeździe po Alkoholu - Kiedy Potrzebny" 
-      description="Kiedy warto skorzystać z pomocy adwokata w sprawie o jazdę po alkoholu? Strategie obrony, koszty i najczęstsze pytania."
+      description="Dowiedz się kiedy warto skorzystać z pomocy adwokata w sprawie o jazdę po alkoholu. Poznaj strategie obrony, koszty i korzyści."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Kiedy warto skorzystać z pomocy adwokata?</h2>
