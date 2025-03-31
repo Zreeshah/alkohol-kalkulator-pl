@@ -23,8 +23,8 @@ const Index = () => {
 
   return (
     <Layout 
-      title="Wirtualny Alkomat Online - Oblicz Szybko i Bezpłatnie Poziom Alkoholu we Krwi" 
-      description="Sprawdź, kiedy będziesz mógł bezpiecznie prowadzić pojazd po spożyciu alkoholu. Darmowy kalkulator promili pomoże Ci oszacować czas potrzebny do wytrzeźwienia. Pamiętaj, że to tylko kalkulacja orientacyjna."
+      title="Wirtualny Alkomat Online - Oblicz Promile Za Darmo" 
+      description="Sprawdź kiedy możesz bezpiecznie prowadzić po spożyciu alkoholu. Darmowy kalkulator promili pomoże oszacować czas potrzebny do wytrzeźwienia."
     >
       <div className="mb-12">
         {showForm ? (

@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 const AdwokatJazdaPoAlkoholu = () => {
   return (
     <Layout 
-      title="Adwokat przy sprawie o jazdę po alkoholu" 
-      description="Dowiedz się, kiedy i dlaczego warto skorzystać z pomocy adwokata w przypadku jazdy po alkoholu, jakie strategie obrony można zastosować i ile kosztuje obrona."
+      title="Adwokat przy Sprawie o Jazdę po Alkoholu" 
+      description="Dowiedz się kiedy warto skorzystać z pomocy adwokata w sprawie o jazdę po alkoholu. Strategie obrony, koszty i najczęstsze pytania."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Kiedy warto skorzystać z pomocy adwokata?</h2>

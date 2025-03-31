@@ -5,8 +5,8 @@ import Layout from '@/components/Layout';
 const PolitykaPrywatnosci = () => {
   return (
     <Layout 
-      title="Polityka Prywatności Wirtualnego Alkomatu Online" 
-      description="Polityka prywatności Wirtualnego Alkomatu ONLINE - informacje o przetwarzaniu danych, wykorzystaniu cookies oraz prawach użytkowników. Transparentne zasady korzystania z serwisu."
+      title="Polityka Prywatności - Wirtualny Alkomat" 
+      description="Zasady przetwarzania danych osobowych i wykorzystania cookies w serwisie Wirtualny Alkomat Online. Dowiedz się jak chronimy Twoją prywatność."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Informacje ogólne</h2>

@@ -5,8 +5,8 @@ import Layout from '@/components/Layout';
 const OdzyskaniePrawaJazdy = () => {
   return (
     <Layout 
-      title="Jak Odzyskać Prawo Jazdy po Zatrzymaniu za Jazdę pod Wpływem Alkoholu" 
-      description="Szczegółowy poradnik odzyskania prawa jazdy po zatrzymaniu za jazdę pod wpływem alkoholu. Procedury, terminy, wymagane dokumenty i koszty - wszystko w jednym miejscu."
+      title="Odzyskanie Prawa Jazdy po Jeździe po Alkoholu" 
+      description="Jak odzyskać prawo jazdy po zatrzymaniu za jazdę po alkoholu? Procedury, terminy, wymagane dokumenty i koszty w jednym miejscu."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Procedura odzyskania prawa jazdy po jego zatrzymaniu</h2>
