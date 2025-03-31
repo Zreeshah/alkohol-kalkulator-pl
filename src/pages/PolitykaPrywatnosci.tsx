@@ -6,7 +6,7 @@ const PolitykaPrywatnosci = () => {
   return (
     <Layout 
       title="Polityka Prywatności - Zasady Ochrony Danych" 
-      description="Zasady przetwarzania danych osobowych i cookies w naszym serwisie. Informacje o gromadzonych danych i prawach użytkowników."
+      description="Zasady ochrony danych osobowych w serwisie. Dowiedz się jak przetwarzamy informacje, używamy cookies i chronimy Twoją prywatność podczas korzystania z kalkulatora."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Informacje ogólne</h2>

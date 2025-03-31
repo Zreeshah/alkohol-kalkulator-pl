@@ -9,7 +9,7 @@ const WypadekPoAlkoholu = () => {
   return (
     <Layout 
       title="Spowodowanie wypadku pod wpływem alkoholu" 
-      description="Konsekwencje prawne spowodowania wypadku drogowego pod wpływem alkoholu w Polsce. Poznaj wymiar kar, procedury i odszkodowania."
+      description="Jakie kary grożą za spowodowanie wypadku po alkoholu? Poznaj konsekwencje prawne, procedury sądowe i odpowiedzialność cywilną sprawcy."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Spowodowanie wypadku pod wpływem alkoholu - podstawy prawne</h2>

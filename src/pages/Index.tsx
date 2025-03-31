@@ -24,7 +24,7 @@ const Index = () => {
   return (
     <Layout 
       title="Kalkulator Promili - Sprawdź Czas Trzeźwienia" 
-      description="Oblicz czas trzeźwienia i poziom alkoholu we krwi. Sprawdź bezpieczny czas przed prowadzeniem pojazdu po spożyciu alkoholu."
+      description="Precyzyjny kalkulator alkoholowy online. Oblicz poziom alkoholu we krwi i czas potrzebny do wytrzeźwienia po piwie, winie czy wódce."
     >
       <div className="mb-12">
         {showForm ? (

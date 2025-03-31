@@ -6,7 +6,7 @@ const WarunkoweUmorzenie = () => {
   return (
     <Layout 
       title="Warunkowe Umorzenie - Jazda po Alkoholu" 
-      description="Poznaj warunki warunkowego umorzenia za jazdę po alkoholu. Sprawdź kiedy sąd stosuje ten środek i jakie są jego konsekwencje."
+      description="Kiedy możliwe jest warunkowe umorzenie za jazdę po alkoholu? Poznaj warunki, konsekwencje i procedury sądowe związane z tym środkiem probacyjnym."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Czym jest warunkowe umorzenie postępowania?</h2>
