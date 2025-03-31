@@ -7,7 +7,7 @@ const Kontakt = () => {
   return (
     <Layout 
       title="Kontakt" 
-      description="Skontaktuj się z zespołem Wirtualny Alkomat ONLINE. Zadaj pytanie lub podziel się swoją opinią."
+      description="Skontaktuj się z zespołem Wirtualnego Alkomatu ONLINE. Formularz kontaktowy, dane adresowe oraz możliwość zadania pytań dotyczących kalkulatora alkoholowego."
     >
       <div className="space-y-6 max-w-3xl mx-auto">
         <div className="bg-purple-50 p-6 rounded-lg mb-6">

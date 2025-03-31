@@ -2,6 +2,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,6 +13,10 @@ interface LayoutProps {
 const Layout = ({ children, title, description }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-purple-50">
+      <Helmet>
+        <title>{title} | Wirtualny Alkomat ONLINE</title>
+        <meta name="description" content={description} />
+      </Helmet>
       <Navigation />
       <div className="container mx-auto px-4 py-8">
         <header className="mb-8">

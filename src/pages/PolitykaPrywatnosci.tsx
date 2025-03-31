@@ -6,7 +6,7 @@ const PolitykaPrywatnosci = () => {
   return (
     <Layout 
       title="Polityka Prywatności" 
-      description="Polityka prywatności serwisu Wirtualny Alkomat ONLINE. Dowiedz się, jak przetwarzamy Twoje dane."
+      description="Polityka prywatności Wirtualnego Alkomatu ONLINE - informacje o przetwarzaniu danych, wykorzystaniu cookies oraz prawach użytkowników. Transparentne zasady korzystania z serwisu."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Informacje ogólne</h2>

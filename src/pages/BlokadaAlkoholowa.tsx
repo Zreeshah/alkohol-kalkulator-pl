@@ -9,7 +9,7 @@ const BlokadaAlkoholowa = () => {
   return (
     <Layout 
       title="Blokada alkoholowa (alkoblokada)" 
-      description="Dowiedz się wszystkiego o blokadach alkoholowych, jak działają i jakie przepisy ich dotyczą w Polsce."
+      description="Kompleksowy przewodnik o blokadach alkoholowych w Polsce: jak działają, przepisy prawne, koszty instalacji i użytkowania. Poznaj alternatywę dla zakazu prowadzenia pojazdów."
     >
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Czym jest blokada alkoholowa?</h2>
