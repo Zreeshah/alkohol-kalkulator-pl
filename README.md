@@ -2,5 +2,5 @@
 
 ## Project info
 
-**Website**: https://(https://wirtualny-alkomat-online.pl/)
+**Website**: https://wirtualny-alkomat-online.pl/
 
