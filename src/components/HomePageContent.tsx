@@ -132,6 +132,17 @@ const HomePageContent = () => {
           <p>
             Życzymy udanej zabawy i odpowiedzialnego korzystania z <em>wirtualnego alkomatu</em>! Sprawdź, jak działa, i baw się dobrze, odkrywając tajniki metabolizmu alkoholu.
           </p>
+          <p className="mt-6 text-center">
+            <a 
+              href="https://dodaj.info" 
+              title="Katalog stron www" 
+              className="text-purple-600 hover:underline"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Katalog stron www
+            </a>
+          </p>
         </div>
       </section>
     </div>
@@ -139,3 +150,4 @@ const HomePageContent = () => {
 };
 
 export default HomePageContent;
+
