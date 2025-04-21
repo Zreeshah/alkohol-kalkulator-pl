@@ -1,14 +1,12 @@
 
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState } from 'react';
 import AlcoholCalculatorForm from '@/components/AlcoholCalculatorForm';
 import AlcoholResults from '@/components/AlcoholResults';
 import Layout from '@/components/Layout';
+import HomePageContent from '@/components/HomePageContent';
 import { AlcoholFormData, calculateAlcoholResults, CalculationResult } from '@/utils/alcoholCalculations';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-
-// Lazy load the home page content to improve FCP
-const LazyHomePageContent = lazy(() => import('@/components/HomePageContent'));
 
 const Index = () => {
   const [result, setResult] = useState<CalculationResult | null>(null);
@@ -37,9 +35,7 @@ const Index = () => {
         )}
       </div>
       
-      <Suspense fallback={<div className="py-4">Ładowanie treści...</div>}>
-        <LazyHomePageContent />
-      </Suspense>
+      <HomePageContent />
     </Layout>
   );
 };
