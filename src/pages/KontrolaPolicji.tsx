@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { ChevronDown, ChevronUp, Info } from 'lucide-react';
@@ -8,6 +7,7 @@ import {
   CollapsibleTrigger 
 } from '@/components/ui/collapsible';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import SeoContent from '@/components/SeoContent';
 
 const KontrolaPolicji = () => {
   const [openSections, setOpenSections] = React.useState({
@@ -26,11 +26,32 @@ const KontrolaPolicji = () => {
     }));
   };
 
+  const pageTitle = "Kontrola Trzeźwości - Prawa i Obowiązki";
+  const pageDescription = "Dowiedz się jak zachować się podczas kontroli trzeźwości. Poznaj swoje prawa, obowiązki i procedury policyjne podczas badania alkomatem.";
+
   return (
     <Layout 
-      title="Kontrola Trzeźwości - Prawa i Obowiązki" 
-      description="Dowiedz się jak zachować się podczas kontroli trzeźwości. Poznaj swoje prawa, obowiązki i procedury policyjne podczas badania alkomatem."
+      title={pageTitle}
+      description={pageDescription}
     >
+      <SeoContent
+        title={pageTitle}
+        headings={[
+          {
+            heading: "Podstawowe zasady podczas kontroli drogowej",
+            content: "Kontrola drogowa, w tym badanie trzeźwości, jest stresującym doświadczeniem dla wielu kierowców. Poznaj swoje prawa i obowiązki."
+          },
+          {
+            heading: "Zatrzymanie do kontroli - procedura",
+            content: "Dowiedz się jak rozpoznać prawomocne zatrzymanie i jak zachować się w pierwszych chwilach po zatrzymaniu przez policję."
+          },
+          {
+            heading: "Badanie alkomatem - jak przebiega kontrola trzeźwości",
+            content: "Proces badania alkomatem, wyniki negatywne i pozytywne, oraz co robić w przypadku wątpliwości co do wyniku."
+          }
+        ]}
+      />
+      
       <div className="space-y-6">
         <div className="bg-purple-50 p-4 rounded-lg border border-purple-200 flex items-start mb-6">
           <Info className="text-purple-700 mt-1 mr-3 flex-shrink-0" size={20} />

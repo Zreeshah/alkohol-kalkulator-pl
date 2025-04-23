@@ -1,16 +1,37 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ArrowDown } from 'lucide-react';
+import SeoContent from '@/components/SeoContent';
 
 const BlokadaAlkoholowa = () => {
+  const pageTitle = "Blokada Alkoholowa - Co Warto Wiedzieć";
+  const pageDescription = "Poznaj zasady działania blokad alkoholowych w pojazdach. Przepisy, koszty instalacji i alternatywa dla zakazu prowadzenia pojazdów.";
+
   return (
     <Layout 
-      title="Blokada Alkoholowa - Co Warto Wiedzieć" 
-      description="Poznaj zasady działania blokad alkoholowych w pojazdach. Przepisy, koszty instalacji i alternatywa dla zakazu prowadzenia pojazdów."
+      title={pageTitle}
+      description={pageDescription}
     >
+      <SeoContent
+        title={pageTitle}
+        headings={[
+          {
+            heading: "Czym jest blokada alkoholowa?",
+            content: "Blokada alkoholowa (alkoblokada) to urządzenie, które uniemożliwia uruchomienie pojazdu osobie będącej pod wpływem alkoholu."
+          },
+          {
+            heading: "Jak działa blokada alkoholowa?",
+            content: "Blokada alkoholowa działa na zasadzie pomiaru stężenia alkoholu w wydychanym powietrzu, podobnie jak policyjny alkomat."
+          },
+          {
+            heading: "Kiedy stosuje się blokadę alkoholową w Polsce?",
+            content: "W Polsce blokady alkoholowe mogą być stosowane w ramach programów profilaktycznych lub jako środek karny wobec osób skazanych za prowadzenie pojazdu pod wpływem alkoholu."
+          }
+        ]}
+      />
+
       <article className="prose prose-purple max-w-none">
         <h2 className="text-2xl font-bold text-purple-800 border-b border-purple-200 pb-2 mb-6">Czym jest blokada alkoholowa?</h2>
         <p className="text-lg mb-6 leading-relaxed">
@@ -43,7 +64,7 @@ const BlokadaAlkoholowa = () => {
             Zgodnie z przepisami Kodeksu karnego oraz ustawy Prawo o ruchu drogowym, sąd może orzec wobec sprawcy przestępstwa prowadzenia pojazdu w stanie nietrzeźwości obowiązek prowadzenia wyłącznie pojazdów wyposażonych w blokadę alkoholową. Dotyczy to osób, które:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li className="leading-relaxed">Zostały skazane za prowadzenie pojazdu w stanie nietrzeźwości</li>
+            <li className="leading-relaxed">Zosta��y skazane za prowadzenie pojazdu w stanie nietrzeźwości</li>
             <li className="leading-relaxed">Mają orzeczony środek karny w postaci zakazu prowadzenia pojazdów</li>
             <li className="leading-relaxed">Miały stężenie alkoholu we krwi od 0,5 do 1,5 promila</li>
           </ul>
