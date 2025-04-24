@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
@@ -7,7 +8,7 @@ import SeoContent from '@/components/SeoContent';
 
 const BlokadaAlkoholowa = () => {
   const pageTitle = "Blokada Alkoholowa - Co Warto Wiedzieć";
-  const pageDescription = "Poznaj zasady działania blokad alkoholowych w pojazdach. Przepisy, koszty instalacji i alternatywa dla zakazu prowadzenia pojazdów.";
+  const pageDescription = "Poznaj zasady montażu i używania blokad alkoholowych w Polsce. Dowiedz się o kosztach, przepisach i alternatywach dla zakazu prowadzenia pojazdów.";
 
   return (
     <Layout 

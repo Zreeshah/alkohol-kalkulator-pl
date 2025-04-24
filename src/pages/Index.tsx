@@ -24,8 +24,8 @@ const Index = () => {
 
   return (
     <Layout 
-      title="Wirtualny Alkomat Online – Oblicz Promile w Kilka Chwil!" 
-      description="Czy możesz już prowadzić? Skorzystaj z naszego alkomatu online i sprawdź swoje promile we krwi. Szybkie i dokładne wyniki!"
+      title="Wirtualny Alkomat Online – Oblicz Promile w Kilka Chwil!"
+      description="Sprawdź poziom alkoholu we krwi za pomocą naszego kalkulatora online. Poznaj czas potrzebny do wytrzeźwienia i podejmuj świadome decyzje."
     >
       <div className="mb-12">
         {showForm ? (

@@ -6,7 +6,7 @@ const AlkoholNaSwiecie = () => {
   return (
     <Layout 
       title="Limity Alkoholu dla Kierowców na Świecie" 
-      description="Poznaj dopuszczalne limity alkoholu dla kierowców w różnych krajach. Sprawdź przepisy przed wyjazdem za granicę i uniknij problemów."
+      description="Sprawdź dopuszczalne limity alkoholu dla kierowców w różnych krajach. Poznaj przepisy i kary przed wyjazdem za granicę."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Limity zawartości alkoholu we krwi kierowców na świecie</h2>

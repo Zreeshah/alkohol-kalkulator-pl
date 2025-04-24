@@ -5,8 +5,8 @@ import Layout from '@/components/Layout';
 const PolitykaPrywatnosci = () => {
   return (
     <Layout 
-      title="Polityka Prywatności - Zasady Ochrony Danych" 
-      description="Zasady ochrony danych osobowych w serwisie. Dowiedz się jak przetwarzamy informacje, używamy cookies i chronimy Twoją prywatność podczas korzystania z kalkulatora."
+      title="Polityka Prywatności - Zasady Ochrony Danych"
+      description="Poznaj zasady ochrony prywatności i przetwarzania danych w kalkulatorze alkoholowym online. Dbamy o bezpieczeństwo Twoich informacji."
     >
       <article className="prose prose-purple max-w-none">
         <h2>Informacje ogólne</h2>
